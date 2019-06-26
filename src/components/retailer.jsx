@@ -125,9 +125,10 @@ class Retailer extends Component {
                   >
                     <h2>ការជាវគម្ពីរ (KOOMPI)</h2>
                     <p>
-                      ចូលកាន់តែជិតនិង ស្និតស្នាលជាមួយ KOOMPI បានគ្រប់ទីកន្លែងដែលអ្នកទៅ ដោយទទួលយកគម្ពីរ (KOOMPI) ពីហាងដែលនៅជិតលោកអ្នកបំផុត។ 
-                      បំពេញតម្រូវការ និង សម្រួលដល់ភាពងាយស្រួលជូនអតិថិជនគ្រប់គ្នា។ អ្នកអាចរកជាវ KOOMPI បានពីដៃគូ
-                      <br />លក់រាយរបស់យើងដែលមានបញ្ជីខាងក្រោម:
+                    ចូល កាន់ តែ ជិត និង ស្និត ស្នាល ជាមួយ KOOMPI បាន គ្រប់ ទីកន្លែង ដែល អ្នក ទៅ
+                    ទទួល យក គម្ពីរ (KOOMPI) ពី ហាង ដែល នៅ ជិត  លោក អ្នក បំផុត។ បំពេញ តម្រូវ ការ និង 
+                    សម្រួល ដល់ ភាព ងាយ ស្រួល ជូន អតិថិជន គ្រប់ គ្នា។ អ្នក អាច រក ជាវ KOOMPI បាន ពី ដៃ គូ 
+                    លក់ រាយ របស់ យើង ដែល មាន បញ្ជី ខាងក្រោម:
                     </p>
                   </div>
                 </div>
@@ -144,7 +145,7 @@ class Retailer extends Component {
         </div>
         <div className="ui container">
           <center>
-            <h2 className="retailer">Our Retailer</h2>
+            <h2 className="retailer">ដៃគូរលក់រាយរបស់យើង </h2>
             <div className="ui stackable four column grid">
               {this.state.isLoading
                 ? this.displayLoading()

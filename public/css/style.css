@@ -1285,8 +1285,16 @@ p {
 
   /* More edit */
 
-  .featureBannerContent p {
+  .featureBannerContent p,
+  .feature-padding-text p,
+  .feature-padding-text-right p {
     font-size: 16px !important ;
+  }
+  .backgroundAbout .ui.container p {
+    font-size: 16px!important;
+  }
+  .retailerPadding p {
+    font-size: 16px!important;
   }
 }
 
@@ -1652,9 +1660,27 @@ p {
     background-color: #b5c0c6;
     color: rgba(0, 0, 0, 0.87);
   }
+  /* more edit */
+  .featureBanner p
+  {
+    font-size: 12px!important;
+  }
+  .feature-padding-text p,
+  .feature-padding-text-right p
+  {
+    font-size: 12px!important;
+  }
+  .backgroundAbout .ui.container p
+  {
+    font-size: 12px!important;
+  }
+  .retailerPadding p {
+    font-size: 12px!important;
+  }
 }
 
 @media only screen and (max-width: 320px) {
+
 }
 
 /* Mobile */
@@ -1673,6 +1699,9 @@ p {
 @media only screen and (max-width: 767px) {
   .featureBannerContent p {
     font-size: 1rem !important;
+  }
+  .backgroundAbout .ui.container p {
+    font-size: 16px;
   }
 }
 
